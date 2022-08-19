@@ -1,0 +1,66 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 20em;
+  background-image: url(../imgs/banner.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  border-bottom: 1px solid black;
+}
+
+.header h1 {
+  margin: 0;
+  color: white;
+  font-size: 5em;
+  padding-top: 20px;
+  padding-left: 80px;
+  -webkit-text-stroke: 0.3px rgb(152, 245, 3);
+}
+
+.header p {
+  color: white;
+  font-size: 2em;
+  padding-left: 80px;
+  -webkit-text-stroke: 0.2px rgb(253, 122, 14);
+}
+
+.lista_de_armas table {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(220, 220, 220);
+}
+.lista_de_armas tr {
+  border: solid;
+}
+.lista_de_armas td {
+  width: 30%;
+  padding: 1.5em;
+}
+
+.lista_de_armas img {
+  border: 1px groove;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.lista_de_armas p {
+  font-size: 1.2em;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: rgb(190, 190, 190);
+  border: 1px groove;
+  color: white;
+}
+
+
